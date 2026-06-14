@@ -237,14 +237,14 @@ export const certifications: Certification[] = [
         name: "User Experience Questionnaire Instrument",
         issuer: "Universitas Trilogi",
         date: "2026-04-24",
-        image: "/images/TrilogiCert.jpg",
+        image: "/images/trilogiCert.jpg",
     },
     {
         id: "4",
         name: "CL SEAMS TRAINING",
         issuer: "DOST",
         date: "2026-03-03",
-        image: "/images/clSeamsTraining.png",
+        image: "/images/clSeamsTraining.jpg",
     },
     {
         id: "5",
@@ -279,7 +279,7 @@ export const certifications: Certification[] = [
         name: "On the Job Training",
         issuer: "DOST",
         date: "2026-05-26",
-        image: "/images/ojt.png",
+        image: "/images/ojt.jpg",
     },
     {
         id: "10",
