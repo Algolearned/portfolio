@@ -1,23 +1,4 @@
-import russelAvatar from "../assets/russel.jpeg";
-import radiantSplendid from "../assets/radiantSplendid.png"
-import shs from "../assets/shs.png";
-import denjeavier from "../assets/denjeavier.png"
-import minecraft from "../assets/minecraft.png";
-import diskubre from "../assets/diskubre.png";
-import capstoneui from "../assets/capstoneui.png";
-import dpwh from "../assets/dpwh.png";
-import roadwatch from "../assets/roadwatch.png";
-import uss from "../assets/uss.png";
-import suacert1 from "../assets/suacert1.png";
-import exhibitCert from "../assets/exhibitCert.png";
-import binhi from "../assets/binhi.jpg";
-import trilogiCert from "../assets/TrilogiCert.jpg";
-import clSeamsTraining from "../assets/clSeamsTraining.jpg";
-import cisco from "../assets/cisco.png";
-import bugsaicert from "../assets/bugsaicert.png";
-import suacert2 from "../assets/suacert2.png";
-import suacert3 from "../assets/suacert3.png";
-import ojt from "../assets/ojt.jpg";
+
 
 
 import type {
@@ -33,7 +14,7 @@ export const personalInfo: PersonalInfo = {
     email: "russeljean528@gmail.com",
     phone: "09817838894",
     location: "Davao City, Philippines",
-    avatar: russelAvatar,
+    avatar: "/images/russel.jpeg",
     resumeUrl: "/resume.pdf",
     projectsCompleted: 9,
 
@@ -87,7 +68,7 @@ export const projects: Project[] = [
         id: "1",
         title: "Radiant Splendid",
         description: "A foundational web development project that showcases the application of HTML, CSS, and JavaScript in designing and developing  web experiences.",
-        image: radiantSplendid,
+        image: "/images/radiantSplendid.png",
         tags: ["HTML", "CSS", "JS"],
         githubUrl: "https://github.com/",
         liveUrl: "",
@@ -99,7 +80,7 @@ export const projects: Project[] = [
         id: "2",
         title: "SHRS Platform",
         description: "A Student Health Record System (SHRS) developed to digitize and manage student medical information efficiently. Built using Laravel, Bootstrap, and MySQL.",
-        image: shs,
+        image: "/images/shs.png",
         tags: ["Bootstrap", "Laravel", "MySQL"],
         githubUrl: "https://github.com/",
         featured: true,
@@ -110,7 +91,7 @@ export const projects: Project[] = [
         id: "3",
         title: "DeJeanVer Online Bikeshop",
         description: "A modern bicycle shop management system that automates sales processing, inventory tracking, and performance monitoring using Bootstrap, Native PHP, and Chart.js.",
-        image: denjeavier,
+        image: "/images/denjeavier.png",
         tags: ["BOOTSTRAP", "NATIVE PHP", "CHART.JS"],
         githubUrl: "https://github.com/LorinsSabyir/DeJeanVer-online-bike-shop-System",
         liveUrl: "https://github.com/LorinsSabyir/DeJeanVer-online-bike-shop-System",
@@ -123,7 +104,7 @@ export const projects: Project[] = [
         title: "Minecraft Prototype",
         description: "A UI/UX design prototype that recreates the official Minecraft website using Figma, focusing on layout design, visual consistency, and user interface design principles.",
         longDescription: "A comprehensive DevOps monitoring solution that tracks server health, application performance, and triggers intelligent alerts. Features a Grafana-like interface with custom dashboards.",
-        image: minecraft,
+        image: "/images/minecraft.png",
         tags: ["FIGMA"],
         githubUrl: "https://www.figma.com/proto/qF52fGrcOApreXwDQxkb9M/Minecraft?node-id=434-18930&p=f&viewport=310%2C73%2C0.08&t=uL20bUKPLFbbIn7i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         featured: false,
@@ -134,7 +115,7 @@ export const projects: Project[] = [
         id: "5",
         title: "DISKUBRE",
         description: "A mobile application that serves as a two-sided marketplace connecting clients and workers, enabling seamless job posting, talent discovery, and professional networking within a skill-based service ecosystem.",
-        image: diskubre,
+        image: "/images/diskubre.png",
         tags: ["FIGMA"],
         githubUrl: "https://www.figma.com/proto/aFCgyKSNysjAF3WFZdq0RL/Techno-Prototype?node-id=45-424&p=f&viewport=98%2C86%2C0.08&t=CYCbFPVrVrbyzG7k-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=45%3A424&show-proto-sidebar=1&page-id=0%3A1",
         liveUrl: "https://www.figma.com/proto/aFCgyKSNysjAF3WFZdq0RL/Techno-Prototype?node-id=45-424&p=f&viewport=98%2C86%2C0.08&t=CYCbFPVrVrbyzG7k-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=45%3A424&show-proto-sidebar=1&page-id=0%3A1",
@@ -146,7 +127,7 @@ export const projects: Project[] = [
         id: "6",
         title: "ROADWATCH UI",
         description: "A UI application for RoadWatch, a smart traffic citation and monitoring system that enables digital ticketing, violation tracking, and data visualization for efficient traffic management.",
-        image: capstoneui,
+        image: "/images/capstoneui.png",
         tags: ["FIGMA"],
         githubUrl: "https://www.figma.com/design/fZSebcBNZvpQ9YXXyTnki3/HCI2---MODULE-2-ASSESSMENT?node-id=69-472&t=1rsb6ep3JS24IPDP-1",
         liveUrl: "https://www.figma.com/design/fZSebcBNZvpQ9YXXyTnki3/HCI2---MODULE-2-ASSESSMENT?node-id=69-472&t=1rsb6ep3JS24IPDP-1",
@@ -159,7 +140,7 @@ export const projects: Project[] = [
         id: "7",
         title: "DPWH",
         description: "A modern UI redesign of the DPWH website that enhances usability, accessibility, and visual hierarchy through improved layout structure and user-centered design principles.",
-        image: dpwh,
+        image: "/images/dpwh.png",
         tags: ["FIGMA"],
         githubUrl: "https://www.figma.com/proto/rdvVvcWZ2JOAU2cUj00Qxt/DPWH-HCI1?node-id=3-2&viewport=63%2C218%2C0.12&t=4SZcEfVxbAL1ABbb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         liveUrl: "https://www.figma.com/proto/rdvVvcWZ2JOAU2cUj00Qxt/DPWH-HCI1?node-id=3-2&viewport=63%2C218%2C0.12&t=4SZcEfVxbAL1ABbb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
@@ -171,7 +152,7 @@ export const projects: Project[] = [
         id: "8",
         title: "ROADWATCH",
         description: "A BSIT capstone project developed using Flutter for a smart traffic citation and monitoring system.",
-        image: roadwatch,
+        image: "/images/roadwatch.png",
         tags: ["Flutter", "Dart", "Firebase"],
         githubUrl: "https://github.com/LorinsSabyir/RoadWatch_Mobile_Ticketing",
         liveUrl: "https://drive.google.com/drive/u/0/folders/1Kz_vaceFmgaNrSc2UusdCQcqYsW1cPU4?fbclid=IwY2xjawSYlpFleHRuA2FlbQMxMDAAYnJpZBExUGhHMmV4VmJtWlZ1SEhocXNydGMGYXBwX2lkATAAAR5lsCfGp_oeiIkj9Ed9iLYsGaLWn9wMZNQaPdKrMEZ1b3cUDgMhv7c_VLxNSQ_aem_ta3DZZF1VWUUHihl8V4H9Q",
@@ -184,7 +165,7 @@ export const projects: Project[] = [
         id: "9",
         title: "Universal System Survey",
         description: "A web-based survey system developed under the LODIxR project, designed to collect, manage, and analyze user responses in a structured and efficient way.",
-        image: uss,
+        image: "/images/uss.png",
         tags: ["React", "Node.js", "Redux", "Tailwind CSS", "PostgreSQL", "TypeScript"],
         githubUrl: "https://www.figma.com/proto/rdvVvcWZ2JOAU2cUj00Qxt/DPWH-HCI1?node-id=3-2&viewport=63%2C218%2C0.12&t=4SZcEfVxbAL1ABbb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         liveUrl: "https://www.figma.com/proto/rdvVvcWZ2JOAU2cUj00Qxt/DPWH-HCI1?node-id=3-2&viewport=63%2C218%2C0.12&t=4SZcEfVxbAL1ABbb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
@@ -245,70 +226,70 @@ export const certifications: Certification[] = [
         name: "Capstone Exhibit",
         issuer: "DNSC",
         date: "2026-06-01",
-        image: exhibitCert,
+        image: "/images/exhibitCert.png",
     },
     {
         id: "2",
         name: "BINHI",
         issuer: "DNSC",
         date: "2026-06-11",
-        image: binhi,
+        image: "/images/binhi.jpg",
     },
     {
         id: "3",
         name: "User Experience Questionnaire Instrument",
         issuer: "Universitas Trilogi",
         date: "2026-04-24",
-        image: trilogiCert,
+        image: "/images/TrilogiCert.jpg",
     },
     {
         id: "4",
         name: "CL SEAMS TRAINING",
         issuer: "DOST",
         date: "2026-03-03",
-        image: clSeamsTraining,
+        image: "/images/clSeamsTraining.png",
     },
     {
         id: "5",
         name: "Packet Tracer",
         issuer: "CISCO",
         date: "2024-01-24",
-        image: cisco,
+        image: "/images/cisco.png",
     },
     {
         id: "6",
         name: "BUGSAI TBI",
         issuer: "BUGSAI",
         date: "2025-02-25",
-        image: bugsaicert,
+        image: "/images/bugsaicert.png",
     },
     {
         id: "7",
         name: "ADVANCE SEMINAR",
         issuer: "DNSC",
         date: "2025-10-17",
-        image: suacert2,
+        image: "/images/suacert2.png",
     },
     {
         id: "8",
         name: "ADVANCE SEMINAR",
         issuer: "DNSC",
         date: "2025-11-05",
-        image: suacert3,
+        image: "/images/suacert3.png",
     },
     {
         id: "9",
         name: "On the Job Training",
         issuer: "DOST",
         date: "2026-05-26",
-        image: ojt,
+        image: "/images/ojt.png",
     },
     {
         id: "10",
         name: "TOPCIT",
         issuer: "IITP",
         date: "2025-01-02",
-        image: suacert1,
+        image: "/images/suacert1.png",
     },
 ];
 

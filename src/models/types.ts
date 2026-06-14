@@ -81,7 +81,6 @@ export interface Certification {
     issuer?: string;
     date?: string;
     credentialId?: string;
-    url?: string;    // ← add this back
     image?: string;
 }
 
