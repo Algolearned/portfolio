@@ -1,7 +1,11 @@
+/* ─── MUST BE FIRST ─── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
+
+/* ─── Dark mode ─── */
 @variant dark (&:where(.dark, .dark *));
 
-/* â”€â”€â”€ Custom design tokens (replaces tailwind.config.js theme.extend) â”€â”€â”€ */
+/* ─── Design tokens ─── */
 @theme {
   /* Fonts */
   --font-sans: "Inter", system-ui, sans-serif;
@@ -24,7 +28,7 @@
   --color-accent-500: #8b5cf6;
   --color-accent-600: #7c3aed;
 
-  /* Custom keyframes */
+  /* Animations */
   --animate-fade-in: fadeIn 0.5s ease-in-out;
   --animate-slide-up: slideUp 0.5s ease-out;
 
@@ -51,9 +55,7 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
-
-/* â”€â”€â”€ Base styles â”€â”€â”€ */
+/* ─── Base styles ─── */
 @layer base {
   body {
     font-family: var(--font-sans);
@@ -82,7 +84,7 @@
   }
 }
 
-/* â”€â”€â”€ Utility classes â”€â”€â”€ */
+/* ─── Utility classes ─── */
 @layer utilities {
   .gradient-text {
     background: linear-gradient(to right, var(--color-primary-500), var(--color-accent-500));

@@ -1,6 +1,3 @@
-
-
-
 import type {
     PersonalInfo, SocialLink, Skill, Project,
     WorkExperience, Education, Certification, NavItem
