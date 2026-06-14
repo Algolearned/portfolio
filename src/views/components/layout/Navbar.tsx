@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import { useTheme } from "../../../viewmodels/useTheme";
 import { useNavigation } from "../../../viewmodels/useNavigation";
-import rlogo from "../../../assets/rlogo.png";
+import rlogo from "../../../../public/images/rlogo.png";
 
 export const Navbar = () => {
     const { isDark, toggle } = useTheme();

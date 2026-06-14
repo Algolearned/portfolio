@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { personalInfo, socialLinks } from "../../../models/data";
 import { Flower2 } from "lucide-react";
 import { SocialIcon } from "../ui/SocialIcon";
-import rlogo from "../../../assets/rlogo.png";
+import rlogo from "../../../../public/images/rlogo.png";
+
 
 
 
